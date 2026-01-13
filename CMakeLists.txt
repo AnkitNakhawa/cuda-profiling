@@ -13,6 +13,7 @@ set(CMAKE_CUDA_ARCHITECTURES 75)
 add_executable(cuda_matmul
         src/main.cu
         src/matmul_naive.cu
+        src/matmul_naive.cu
 )
 
 target_compile_options(cuda_matmul PRIVATE
